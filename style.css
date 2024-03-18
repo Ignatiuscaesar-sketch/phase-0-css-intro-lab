@@ -1,20 +1,42 @@
 /* Tag selector to select the 'body' element */
 body {
   /* Your code here! */
+  font-family: Arial, sans-serif; /* This changes the font to a more modern, readable one */
+  margin: 0;
+  padding: 20px; /* Adds padding around the content for better spacing */
+  background-color: #00b3e6; /* Sets a light background color for a soothing effect */
+
 }
 
 /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
 div {
   /* Your code here! */
+  padding: 30px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: auto;
+  width: 700px;
+  background-color: white; /* Sets the div background to white to contrast with the body */
+  padding: 30px; /* Adds padding inside the div for content spacing */
+  margin-top: 20px; /* Adds margin at the top for separation from the body's edge */
+  box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Adds a subtle shadow to the div for depth */
+
 }
 
 /* ID selector to select the element with id 'main-header' */
 #main-header {
   /* Your code here! */
-  color: red;
+  color: red; font-size: 22px;
+  color: red; /* Keeps the header color as red for emphasis */
+  text-align: center; /* Centers the header text */
+  margin-bottom: 20px; /* Adds space below the header for better visual separation */
+
 }
 
 /* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
   /* Your code here! */
+  color: #333; /* Darkens the text for better readability */
+  font-style: italic; /* Italicizes question items to differentiate from other text */
+  margin-left: 20px; /* Indents list items for clearer hierarchy */
+
 }
